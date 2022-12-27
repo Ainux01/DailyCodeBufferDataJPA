@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: dailycodebuffer-JPA
+  datasource:
+    url: jdbc:mysql://localhost:3306/dailycodebuffer
+    username: COURSDB
+    password: COURSDB
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
+
+
